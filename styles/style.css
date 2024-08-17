@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{ font-family: Arial, sans-serif;
+      height: 100vh;
+       margin: 0; } 
+
+      .form-container { 
+        background-color: #2f86ae; 
+     display:flex 
+     justify-content:center; 
+     align-items: center;
+        padding: 20px;
+         border-radius: 8px; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+        width: 300px; } 
+        .form-container input[type="text"],
+         .form-container input[type="number"], 
+         .form-container input[type="password"]
+          { width: calc(100% - 20px); padding: 10px;
+             margin: 10px 0; border: 1px solid #ccc; 
+             border-radius: 5px; font-size: 16px; background-color: #f7f7f7;
+              box-sizing: border-box; } .form-container .small-input { width: 45%; margin-right: 5%; }
+               .form-container .small-input:last-child { margin-right: 0; } 
+               .form-container .zip-input { width: 100%; } 
+               .form-container button { width: 100%; 
+                padding: 10px; 
+                background-color: #008cba; 
+                color: white; border: none;
+                 border-radius: 5px; font-size: 16px; 
+                 cursor: pointer; } 
+                 .form-container button:hover { background-color: #0079a1; }
+  .form-container .verify-text { margin-top: 10px;
+     font-size: 12px; 
+     color: #666;     text-align: center; } 
