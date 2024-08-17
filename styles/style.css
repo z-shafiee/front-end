@@ -21,7 +21,8 @@
          .form-container input[type="password"]
           { width: calc(100% - 20px); padding: 10px;
              margin: 10px 0; border: 1px solid #ccc; 
-             border-radius: 5px; font-size: 16px; background-color: #f7f7f7;
+             border-radius: 5px; font-size: 16px; 
+             background-color: #f7f7f7;
               box-sizing: border-box; } .form-container .small-input { width: 45%; margin-right: 5%; }
                .form-container .small-input:last-child { margin-right: 0; } 
                .form-container .zip-input { width: 100%; } 
@@ -34,4 +35,5 @@
                  .form-container button:hover { background-color: #0079a1; }
   .form-container .verify-text { margin-top: 10px;
      font-size: 12px; 
-     color: #666;     text-align: center; } 
+     color: #666;    
+      text-align: center; } 
